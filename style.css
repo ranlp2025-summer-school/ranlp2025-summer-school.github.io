@@ -2600,6 +2600,29 @@ input[type=range]::-moz-focus-outer {
   fill: #fff;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 2px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: oklch(27.8% 0.033 256.848);
+  border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: oklch(96.7% 0.003 264.542);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: oklch(70.7% 0.022 261.325);
+}
+
 @media (min-width: 640px){
   .sm\:absolute{
     position: absolute;
